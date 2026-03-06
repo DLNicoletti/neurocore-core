@@ -1,5 +1,5 @@
 # neurocore-regime-dynamics
-NeuroCore™ / 04920∩  Emergent Dynamical Regimes in High-Entropy Flux
+NeuroCore™ 049200  Emergent Dynamical Regimes in High-Entropy Flux
 
 
 Layer Description
