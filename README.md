@@ -1,134 +1,67 @@
-# neurocore-regime-dynamics
-NeuroCore™ 049200  Emergent Dynamical Regimes in High-Entropy Flux
+## Emergent Dynamical Regimes Architecture
 
+**First public theoretical disclosure.**
 
-Layer Description
+This release formalizes a 7-layer conceptual architecture for high-entropy flux analysis.  
+It establishes the mathematical basis for regime identification (Layer 3) and state space partitioning (Layer 4), introducing an empirical stability threshold (Kc ≈ 1.441).
 
-Layer O Configuration space 𝑋
+---
 
-Layer 1 Flow / map
-𝛷: 𝑋 → 𝑋
+## Core Formalism
 
-Layer 2 State evolution
-𝑥(𝑡) = 𝛷(𝑥0 )
-
-Layer 3 Basins / Regimes
-𝛤 = {𝑥(𝑡)}
-
-Layer 4 Partition of space
-𝑋 = 𝑈 ∪ 𝑋𝐾
-
-Layer 5, Layer 6, Layer 7, 
-Local dynamics (interactions within
-subspaces)
-Basins / regimes (conceptual
-diagrams).
-
-Measurable observables
-𝑛, 𝐽, 𝑅
-
-## System Flow
-
-The system evolves according to a dynamical operator:
-
+### Dynamical Operator
 Φ : X → X
 
-## State Evolution
+### State Evolution
+x(t) = Φ(x₀), x₀ ∈ X
 
-x(t) = Φ(x0)
-where
+### Regime Definition
+Γ = {x(t)}
 
-x0 ∈ X
+The trajectory forms basins of attraction representing emergent dynamical regimes.
 
-## Regime / Basin Definition
+---
 
-Γ = { x(t) }
+## State Space Partition
 
-The trajectory forms basins of attraction representing emergent regimes.
+X = U ∪ X_K
 
+- U → stable attractor regions  
+- X_K → critical / transition regions  
 
-## Partition of State Space
-
-The state space can be partitioned into regime subsets:
-
-X = U ∪ XK
-
-where
-
-- **U** represents stable attractor regions  
-- **XK** represents critical or transition regions
-  
+---
 
 ## Observables
 
-The system dynamics can be described through measurable observables:
-
 n, J, R
 
+System-dependent measurable quantities extracted from flux dynamics.
 
-representing system-dependent measurable quantities extracted from the flux dynamics.
+---
 
-
-# Multilayer Conceptual Architecture
+## Multilayer Architecture
 
 | Layer | Description |
-|------|-------------|
-| Layer 0 | Configuration Space X |
-| Layer 1 | Dynamical Flow Φ : X → X |
-| Layer 2 | State Evolution x(t) = Φ(x0) |
-| Layer 3 | Basins / Regimes Γ |
-| Layer 4 | Partition of Space X = U ∪ XK |
-| Layer 5 | Local dynamics within subspaces |
-| Layer 6 | Regime diagrams / attractor structure |
-| Layer 7 | Measurable observables n, J, R |
+|------|------------|
+| 0 | Configuration space X |
+| 1 | Dynamical flow Φ : X → X |
+| 2 | State evolution x(t) = Φ(x₀) |
+| 3 | Basins / regimes Γ |
+| 4 | Partition of space X = U ∪ X_K |
+| 5 | Local dynamics within subspaces |
+| 6 | Regime structure / attractor diagrams |
+| 7 | Measurable observables n, J, R |
 
+---
 
-# Proprietary Notice
+## References
 
-The present repository contains **conceptual and theoretical documentation only**.
+- Strogatz, S. — *Nonlinear Dynamics and Chaos*  
+- Friston, K. — *The Free Energy Principle*  
+- Shannon, C. — *A Mathematical Theory of Communication*
 
-Critical elements including:
+---
 
-- operational algorithms
-- normalization constants
-- dataset architecture
-- computational pipelines
-- optimization procedures
+## Notes
 
-are **intentionally not disclosed**.
-
-These elements constitute the **proprietary core of the NeuroCore™ framework**.
-
-
-# Intellectual Property Notice
-
-© Davide Luca Nicoletti
-
-All rights reserved.
-
-The NeuroCore™ / 049200 framework, including its mathematical structure, conceptual architecture, and regime identification methodology, is original work authored by Davide Luca Nicoletti.
-
-Unauthorized reproduction, reverse engineering, or commercial use of the framework is prohibited without explicit written permission from the author.
-
-
-# Research Status
-
-This repository represents a **public theoretical disclosure layer**.
-
-The operational implementation remains part of a **private research environment**.
-
-# References
-
-Strogatz, S. – *Nonlinear Dynamics and Chaos*  
-Friston, K. – *The Free Energy Principle*  
-Shannon, C. – *A Mathematical Theory of Communication*
-
-
-# Contact
-
-For academic collaboration or research discussion:
-
-Davide Luca Nicoletti
-
-## Authenticity & Intellectual Property. 
-Statement: "This ecosystem is protected by a deterministic digital signature. Current build SHA-256: [6d59bd8d8f4c89ffb4d140f5b89c664798701b4cac8ae373aaaa71540a459116]."
+Empirical validation and applied modules are distributed across the NeuroCore ecosystem (ASHI-CORE, Europa).
