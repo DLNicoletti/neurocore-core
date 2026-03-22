@@ -1,0 +1,67 @@
+### Results — Pre-ictal Regime Transition Detection
+
+### Dataset and Method
+
+The framework was evaluated on clinical EEG datasets with annotated seizure events.
+
+A sliding window approach was used to compute:
+
+K = σ / μ
+
+over time.
+
+---
+
+### Observed Behavior
+
+Across recordings:
+
+* Stable regime (K < Kc) during baseline
+* Progressive increase in K before seizure onset
+* Threshold crossing (K ≥ Kc) prior to clinical event
+
+---
+
+### Lead Time
+
+Preliminary observations indicate that K threshold crossings may occur up to ~18 minutes before ictal onset, depending on signal quality and dataset characteristics.
+
+---
+
+### Interpretation
+
+The increase in K reflects a transition from localized variability to globally coupled dynamics.
+
+NeuroCore™ detects the structural transition leading to the event, not the event itself.
+
+---
+
+### Significance
+
+* Model-independent detection
+* Stable regime separation
+* Potential early-warning signal
+
+---
+
+### Limitations
+
+* Dataset-dependent results
+* Need for cross-patient validation
+* Sensitivity to preprocessing
+
+---
+
+### Outlook
+
+Future work will include:
+
+* multi-dataset validation
+* real-time implementation
+* benchmarking against existing models
+
+---
+
+### Summary
+
+NeuroCore™ provides a deterministic approach to detecting pre-ictal regime transitions through measurable signal properties.
