@@ -1,3 +1,5 @@
+![License](https://img.shields.io/badge/license-Proprietary-red)
+
 ## NeuroCore™ — Core Layer of the 049200™ Ecosystem
 
 **Author**
