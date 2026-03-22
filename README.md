@@ -1,4 +1,4 @@
-## NeuroCore™ — Mathematical Formalization (Core Layer, 049200™ Ecosystem)
+## NeuroCore™ — Core Layer of the 049200™ Ecosystem
 
 **Author**
 Davide Luca Nicoletti
