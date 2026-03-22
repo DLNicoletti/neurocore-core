@@ -1,67 +1,98 @@
-## Emergent Dynamical Regimes Architecture
+## NeuroCore™ — Mathematical Formalization (Core Layer, 049200™ Ecosystem)
 
-**First public theoretical disclosure.**
-
-This release formalizes a 7-layer conceptual architecture for high-entropy flux analysis.  
-It establishes the mathematical basis for regime identification (Layer 3) and state space partitioning (Layer 4), introducing an empirical stability threshold (Kc ≈ 1.441).
+**Author**
+Davide Luca Nicoletti
 
 ---
 
-## Core Formalism
+## Emergent Neurodynamical Regime Architecture
 
-### Dynamical Operator
-Φ : X → X
+NeuroCore™ introduces a multilayer dynamical framework for identifying functional regimes in high-entropy neurobiological signals (EEG / fNIRS).
 
-### State Evolution
-x(t) = Φ(x₀), x₀ ∈ X
+The system models how brain dynamics evolve across a state space and defines measurable criteria for detecting transitions between stable and pre-critical regimes.
 
-### Regime Definition
-Γ = {x(t)}
+---
 
-The trajectory forms basins of attraction representing emergent dynamical regimes.
+## Core Mathematical Structure
+
+Let X be the configuration space and Φ a dynamical operator:
+
+* State evolution:
+  x(t) = Φ(x₀), where x₀ ∈ X
+
+* Regime definition:
+  Γ ⊂ X represents the set of trajectories converging to the same functional regime
+
+---
+
+## Statistical Order Parameter
+
+K is defined as:
+
+K = σ / μ
+
+where:
+
+* σ = standard deviation
+* μ = mean
+
+Critical threshold:
+
+Kc ≈ 1.441
+
+Interpretation:
+
+* K < Kc → stable functional organization
+* K ≥ Kc → transition toward globally coupled dynamics
 
 ---
 
 ## State Space Partition
 
-X = U ∪ X_K
+The state space is partitioned as:
 
-- U → stable attractor regions  
-- X_K → critical / transition regions  
+X = U ∪ XK
 
----
+where:
 
-## Observables
-
-n, J, R
-
-System-dependent measurable quantities extracted from flux dynamics.
+* U = stable regimes (K < Kc)
+* XK = transition regimes (K ≥ Kc)
 
 ---
 
 ## Multilayer Architecture
 
-| Layer | Description |
-|------|------------|
-| 0 | Configuration space X |
-| 1 | Dynamical flow Φ : X → X |
-| 2 | State evolution x(t) = Φ(x₀) |
-| 3 | Basins / regimes Γ |
-| 4 | Partition of space X = U ∪ X_K |
-| 5 | Local dynamics within subspaces |
-| 6 | Regime structure / attractor diagrams |
-| 7 | Measurable observables n, J, R |
+* Layer 0 → Configuration space (X)
+* Layer 1 → Dynamical flow (Φ)
+* Layer 2 → State evolution (x(t))
+* Layer 3 → Regime basins (Γ)
+* Layer 4 → State partition (X = U ∪ XK)
+* Layer 5 → Local dynamics
+* Layer 6 → Attractor structure
+* Layer 7 → Observables
 
 ---
 
-## References
+## Observables
 
-- Strogatz, S. — *Nonlinear Dynamics and Chaos*  
-- Friston, K. — *The Free Energy Principle*  
-- Shannon, C. — *A Mathematical Theory of Communication*
+n, J, R represent measurable quantities extracted from the signal:
+
+* n → amplitude
+* J → flux variation
+* R → regime response
 
 ---
 
-## Notes
+## Neurobiological Interpretation
 
-Empirical validation and applied modules are distributed across the NeuroCore ecosystem (ASHI-CORE, Europa).
+Crossing Kc corresponds to a loss of local functional stability and the emergence of globally coupled dynamics.
+
+This transition reflects a structural shift in brain activity rather than a simple anomaly.
+
+---
+
+## Positioning
+
+NeuroCore™ defines a deterministic, observable-based framework for identifying structural transitions in brain dynamics.
+
+It operates independently of model training and complements existing approaches such as variational and free-energy-based models.
